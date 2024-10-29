@@ -1,0 +1,14 @@
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\bin\Debug\net8.0\Lab_OKT_2_03.exe
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\bin\Debug\net8.0\Lab_OKT_2_03.deps.json
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\bin\Debug\net8.0\Lab_OKT_2_03.runtimeconfig.json
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\bin\Debug\net8.0\Lab_OKT_2_03.dll
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\bin\Debug\net8.0\Lab_OKT_2_03.pdb
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\Lab_OKT_2_03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\Lab_OKT_2_03.AssemblyInfoInputs.cache
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\Lab_OKT_2_03.AssemblyInfo.cs
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\Lab_OKT_2_03.csproj.CoreCompileInputs.cache
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\Lab_OKT_2_03.dll
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\refint\Lab_OKT_2_03.dll
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\Lab_OKT_2_03.pdb
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\Lab_OKT_2_03.genruntimeconfig.cache
+C:\Users\Ярослав\Documents\Ярік\project\Lab_OKT_2_03\Lab_OKT_2_03\obj\Debug\net8.0\ref\Lab_OKT_2_03.dll
