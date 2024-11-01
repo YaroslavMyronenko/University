@@ -10,7 +10,7 @@ class Program
         Console.WriteLine("Масив: ");
         for (int a = 0; a < numbers.Length; a++)
         {
-            numbers[a] = rnd.Next(-100, 100);
+            numbers[a] = Math.Round(rnd.NextDouble() * 100.0, 2);
             Console.Write(numbers[a] + ", ");
         }
         int min_index = 0;
@@ -28,7 +28,7 @@ class Program
         numbers[min_index] = temp;
         for (int j = 0; j < numbers.Length; j++)
         {
-            Console.Write(j + numbers[j] + ", ");
+            Console.Write(numbers[j] + ", ");
         }
     }
 }

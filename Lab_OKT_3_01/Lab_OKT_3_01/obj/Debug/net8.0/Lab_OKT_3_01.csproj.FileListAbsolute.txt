@@ -12,3 +12,4 @@ C:\Users\Ярослав\Documents\Ярік\my project\Lab_OKT_3_01\Lab_OKT_3_01\
 C:\Users\Ярослав\Documents\Ярік\my project\Lab_OKT_3_01\Lab_OKT_3_01\obj\Debug\net8.0\Lab_OKT_3_01.pdb
 C:\Users\Ярослав\Documents\Ярік\my project\Lab_OKT_3_01\Lab_OKT_3_01\obj\Debug\net8.0\Lab_OKT_3_01.genruntimeconfig.cache
 C:\Users\Ярослав\Documents\Ярік\my project\Lab_OKT_3_01\Lab_OKT_3_01\obj\Debug\net8.0\ref\Lab_OKT_3_01.dll
+C:\Users\Ярослав\Documents\Ярік\my project\Lab_OKT_3_01\Lab_OKT_3_01\obj\Debug\net8.0\Lab_OKT_3_01.sourcelink.json
