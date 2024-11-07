@@ -82,12 +82,13 @@ class Program
 
     static void Main()
     {
-        int size = 20;
+        int size = 10000;
         int[] testArray = new int[size];
         Random rand = new Random();
+        Console.WriteLine("\n=====================================================================");
         Console.WriteLine("Початковий масив: -->");
         for (int a = 0; a < testArray.Length; a++){
-            testArray[a] = rand.Next(0, 20);
+            testArray[a] = rand.Next(0, 10000);
             Console.Write(testArray[a] + ", ");
         }      
         Console.WriteLine("\n=====================================================================");
@@ -99,7 +100,7 @@ class Program
         }
             Console.WriteLine("\n=====================================================================");
         // Введення випадкового шуканого числа
-        int wanted_number = rand.Next(0, 20); // випадкове число для пошуку в масиві
+        int wanted_number = rand.Next(0, 10000); // випадкове число для пошуку в масиві
         int comparisons;
         
         // Бінарний пошук невідомого числа
