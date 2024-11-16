@@ -3,4 +3,4 @@
 **/*.sin
 **/*.csproj
 **/obj*
-**/*.vscode
+**/*.vscode*

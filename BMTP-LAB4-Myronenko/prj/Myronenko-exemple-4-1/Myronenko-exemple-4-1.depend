@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1731049297 source:d:\bmtp-lab4-myronenko\prj\myronenko-exemple-4-1\main.c
+	<stdio.h>
+	<locale.h>
+

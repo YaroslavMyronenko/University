@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1731532010 source:c:\univer\bmtp\bmtp-lab5-myronenko\prj\myronenko-example-5-1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
