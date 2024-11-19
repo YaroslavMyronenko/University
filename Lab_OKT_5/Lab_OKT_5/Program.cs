@@ -41,7 +41,7 @@ public class Employee
 
         public decimal CalculateTax()
         {
-            return Salary * 0.6m; // Податок 6%
+            return (Salary * 0.6m / 100m); // Податок 0,6%
         }
     }
 
@@ -69,21 +69,23 @@ public class ITEmployee
     // Ієрархія класів
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.OutputEncoding = Encoding.UTF8;
-   
-            var person = new Person(" Дубодзвін Олег Макарович\n", 1845, "Чоловіча");
-            Console.WriteLine(" ||ПІБ: " + person.Name + " ||Вік: " + person.GetAge() + " років " + "\n ||Cтать: " + person.Gender);
 
-            var employee = new Employee("Розробник", new DateTime(1875, 3, 7), 100000m);
-            Console.WriteLine(" ||Посада: " + employee.Position + "\n ||Стаж: " + employee.GetWorkExperience() + "\n ||День прийняття: " + employee.HireDate.ToString("dd.MM.yyyy") + "\n ||Зарплата: " + employee.Salary + " років\n ||Податок: " + employee.CalculateTax());
+        var person = new Person("Дубодзвін Людмила Степанівна\n", 1995, "Жіноча");
+        Console.WriteLine(" ||ПІБ: " + person.Name + " ||Вік: " + person.GetAge() + " років " + "\n ||Cтать: " + person.Gender);
 
-            var itEmployee = new ITEmployee("Front-end developer", "dub_oleg", "12345");
-            Console.WriteLine(" ||Спеціалізація: " + itEmployee.Specialization + "\n ||Логін: " + itEmployee.Login + "\n ||Пароль: " + itEmployee.Password);
+        var employee = new Employee("Дизайнер", new DateTime(2020, 1, 9), 60000m);
+        Console.WriteLine(" ||Посада: " + employee.Position + "\n ||Стаж: " + employee.GetWorkExperience() + " роки" + "\n ||День прийняття: " + employee.HireDate.ToString("dd.MM.yyyy") + "\n ||Зарплата: " + employee.Salary + "\n ||Податок: " + employee.CalculateTax());
 
-            itEmployee.ChangeCredentials("oleg_dubozvin", "1234534512");
-            Console.WriteLine(" ||Новий логін: " + itEmployee.Login + "\n ||Новий пароль: " + itEmployee.Password);
-        }
+        var itEmployee = new ITEmployee("Designer mobile phone", "dub_ludmila", "54321");
+        Console.WriteLine(" ||Спеціалізація: " + itEmployee.Specialization + "\n ||Логін: " + itEmployee.Login + "\n ||Пароль: " + itEmployee.Password);
+
+        itEmployee.ChangeCredentials("Ludmila_dubozvin", "0987654321");
+        Console.WriteLine(" ||Новий логін: " + itEmployee.Login + "\n ||Новий пароль: " + itEmployee.Password);
+
     }
+}
+
 //

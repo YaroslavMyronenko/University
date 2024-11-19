@@ -43,7 +43,7 @@ public class Employee
 
     public decimal CalculateTax()
     {
-        return Salary * 0.6m; // Податок 6%
+        return (Salary * 0.6m / 100m); // Податок 0,6%
     }
 }
 
@@ -71,7 +71,7 @@ public class ITEmployee
 // Ієрархія класів
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Console.OutputEncoding = Encoding.UTF8;
 
@@ -104,11 +104,12 @@ class Program
         var person = new Person(name, birthYear, gender);
         Console.WriteLine("\n ||ПІБ: " + person.Name + "\n ||Вік: " + person.GetAge() + " років " + "\n ||Cтать: " + person.Gender);
         var employee = new Employee(position, hireDate, salary);
-        Console.WriteLine(" ||Посада: " + employee.Position + "\n ||Стаж: " + employee.GetWorkExperience() + "\n ||День прийняття: " + employee.HireDate.ToString("dd.MM.yyyy") + "\n ||Зарплата: " + employee.Salary + " років\n ||Податок: " + employee.CalculateTax());
+        Console.WriteLine(" ||Посада: " + employee.Position + "\n ||Стаж: " + employee.GetWorkExperience() + " років" + "\n ||День прийняття: " + employee.HireDate.ToString("dd.MM.yyyy") + "\n ||Зарплата: " + employee.Salary + "\n ||Податок: " + employee.CalculateTax());
         var itEmployee = new ITEmployee(specialization, login, password);
         Console.WriteLine(" ||Спеціалізація: " + itEmployee.Specialization + "\n ||Логін: " + itEmployee.Login + "\n ||Пароль: " + itEmployee.Password);
         itEmployee.ChangeCredentials(newLogin, newPassword);
         Console.WriteLine(" ||Новий логін: " + itEmployee.Login + "\n ||Новий пароль: " + itEmployee.Password);
+        Console.ReadKey();
     }
 }
 //
